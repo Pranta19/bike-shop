@@ -1,0 +1,79 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #123E50;
+}
+/* Main nav container */
+.navmain {
+
+    display: flex;
+    justify-content: center; /* Centers the nav content */
+    padding: 10px 0; /* Optional: Adds vertical padding */
+}
+
+/* Navigation bar */
+.navber {
+    display: flex;
+    gap: 35px;
+    margin-left: 850px;
+    align-items: center;
+}
+
+/* Button styling */
+.btn {
+    background-color: coral;
+    border-radius: 5px;  
+    color: aliceblue;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff7f50; /* Optional: Adds hover effect */
+}
+.head{
+    margin: 50px;
+    margin-top: 10px;
+   
+    color: azure;
+}
+.img{
+   
+    margin-left: 900px;
+}
+.sech{
+    margin-top: 80px;
+    margin-left: 570px;
+}
+.sech2{
+    color: coral;
+    margin-left: 85px;
+    text-decoration: dotted;
+}
+.secimg{
+    margin-top: 97px;
+    gap: 12px;
+    display: flex;
+}
+.boxstyle {
+    background: local;
+    border: 2px solid rgb(232, 232, 232); /* Adds a solid border */
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    padding: 10px; /* Optional: Adds padding inside the box */
+    width: 365px; /* Set a fixed width */
+    height: 398px; /* Set a fixed height */
+}
+.finalbox{
+    margin-left: 150px;
+    box-sizing: content-box;
+    margin-top: 38px;
+    display: flex
+;
+    gap: 28px;
+}
