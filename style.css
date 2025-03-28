@@ -77,3 +77,79 @@
 ;
     gap: 28px;
 }
+.cv {
+    font-size: 37px;
+    margin-top: 85px;
+    margin-left: 560px;
+}
+.picstar{ margin-left: 20px;
+    margin-top: 35px;
+    display: flex;
+    width: 22px;
+    height: 22px;
+
+}
+.customer{
+    padding: 60px;
+   margin: 80px;
+    gap: 35px;
+    display: flex;
+
+
+}
+.custimage{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 149px;
+    height: 149px;
+}
+.cstbox{
+    background: local;
+    border: 2px solid rgb(232, 232, 232); /* Adds a solid border */
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    padding: 10px; /* Optional: Adds padding inside the box */
+    width: 365px; /* Set a fixed width */
+    height: 398px; /* Set a fixed height */
+}
+.lst{
+    margin-left: 600px;
+}
+.faq{
+    gap: 200px;
+    margin-top: 64px;
+    margin-left: 50px;
+    display: flex;
+}
+.faqbox {
+    margin-top: 10px;
+    background-color: rgb(250, 250, 250); /* Very light white */
+    width: auto;
+    height: auto; /* Adjusts to content */
+    padding: 15px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(230, 240, 255), rgb(245, 245, 245)); /* Light blue + smoky white mix */
+    border-image-slice: 1;
+    border-radius: 10px; /* Optional: For rounded corners */
+}
+.imgsz{
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+}
+.ftr{background-color: rgb(2, 0, 41);
+    color: white;
+    margin-top: 20px;
+    
+
+
+
+}
+.fttext{
+    margin-top: 10px;
+    gap: 20px;
+    display: flex;
+}
+.theend{
+    margin-left: 800px;
+}
