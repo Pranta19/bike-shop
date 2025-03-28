@@ -4,18 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-.main{
+
+/* Main container background */
+.main {
     background-color: #123E50;
 }
-/* Main nav container */
-.navmain {
 
+/* Navigation bar styles */
+.navmain {
     display: flex;
-    justify-content: center; /* Centers the nav content */
-    padding: 10px 0; /* Optional: Adds vertical padding */
+    justify-content: center;
+    padding: 10px 0;
 }
 
-/* Navigation bar */
 .navber {
     display: flex;
     gap: 35px;
@@ -26,7 +27,7 @@
 /* Button styling */
 .btn {
     background-color: coral;
-    border-radius: 5px;  
+    border-radius: 5px;
     color: aliceblue;
     padding: 8px 12px;
     border: none;
@@ -34,122 +35,141 @@
 }
 
 .btn:hover {
-    background-color: #ff7f50; /* Optional: Adds hover effect */
+    background-color: #ff7f50;
 }
-.head{
+
+/* Header section */
+.head {
     margin: 50px;
     margin-top: 10px;
-   
     color: azure;
 }
-.img{
-   
+
+.img {
     margin-left: 900px;
 }
-.sech{
+
+/* Section headers */
+.sech {
     margin-top: 80px;
     margin-left: 570px;
 }
-.sech2{
+
+.sech2 {
     color: coral;
     margin-left: 85px;
     text-decoration: dotted;
 }
-.secimg{
+
+/* Featured images */
+.secimg {
     margin-top: 97px;
     gap: 12px;
     display: flex;
 }
+
+/* Box styles for featured content */
 .boxstyle {
     background: local;
-    border: 2px solid rgb(232, 232, 232); /* Adds a solid border */
+    border: 2px solid rgb(232, 232, 232);
     background-color: rgb(245, 245, 245);
-    border-radius: 5px; /* Optional: Adds rounded corners */
-    padding: 10px; /* Optional: Adds padding inside the box */
-    width: 365px; /* Set a fixed width */
-    height: 398px; /* Set a fixed height */
+    border-radius: 5px;
+    padding: 10px;
+    width: 365px;
+    height: 398px;
 }
-.finalbox{
+
+.finalbox {
     margin-left: 150px;
     box-sizing: content-box;
     margin-top: 38px;
-    display: flex
-;
+    display: flex;
     gap: 28px;
 }
+
+/* Client section */
 .cv {
     font-size: 37px;
     margin-top: 85px;
     margin-left: 560px;
 }
-.picstar{ margin-left: 20px;
+
+.picstar {
+    margin-left: 20px;
     margin-top: 35px;
     display: flex;
     width: 22px;
     height: 22px;
-
 }
-.customer{
+
+.customer {
     padding: 60px;
-   margin: 80px;
+    margin: 80px;
     gap: 35px;
     display: flex;
-
-
 }
-.custimage{
+
+.custimage {
     margin-top: 20px;
     margin-left: 80px;
     width: 149px;
     height: 149px;
 }
-.cstbox{
+
+.cstbox {
     background: local;
-    border: 2px solid rgb(232, 232, 232); /* Adds a solid border */
+    border: 2px solid rgb(232, 232, 232);
     background-color: rgb(245, 245, 245);
-    border-radius: 5px; /* Optional: Adds rounded corners */
-    padding: 10px; /* Optional: Adds padding inside the box */
-    width: 365px; /* Set a fixed width */
-    height: 398px; /* Set a fixed height */
+    border-radius: 5px;
+    padding: 10px;
+    width: 365px;
+    height: 398px;
 }
-.lst{
+
+/* FAQ section */
+.lst {
     margin-left: 600px;
 }
-.faq{
+
+.faq {
     gap: 200px;
     margin-top: 64px;
     margin-left: 50px;
     display: flex;
 }
+
 .faqbox {
     margin-top: 10px;
-    background-color: rgb(250, 250, 250); /* Very light white */
+    background-color: rgb(250, 250, 250);
     width: auto;
-    height: auto; /* Adjusts to content */
+    height: auto;
     padding: 15px;
     border: 3px solid;
-    border-image: linear-gradient(to right, rgb(230, 240, 255), rgb(245, 245, 245)); /* Light blue + smoky white mix */
+    border-image: linear-gradient(to right, rgb(230, 240, 255), rgb(245, 245, 245));
     border-image-slice: 1;
-    border-radius: 10px; /* Optional: For rounded corners */
+    border-radius: 10px;
 }
-.imgsz{
+
+/* Image adjustments */
+.imgsz {
     margin-top: 30px;
     width: auto;
     height: auto;
 }
-.ftr{background-color: rgb(2, 0, 41);
+
+/* Footer section */
+.ftr {
+    background-color: rgb(2, 0, 41);
     color: white;
     margin-top: 20px;
-    
-
-
-
 }
-.fttext{
+
+.fttext {
     margin-top: 10px;
     gap: 20px;
     display: flex;
 }
-.theend{
+
+.theend {
     margin-left: 800px;
 }
